@@ -169,7 +169,13 @@ def plot_performance(
 # Task 1b
 def double_and_add(p: Point, a: int) -> Point:
     # TODO implement
-    ...
+    binary = bin(a)
+    T = p
+    for bit in binary[3:]:
+        T = T.pointdouble()
+        if bit == "1":
+            T = T.pointaddition(p)
+    return T
 
 
 # Task 1c
