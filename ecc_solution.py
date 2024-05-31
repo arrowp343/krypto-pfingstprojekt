@@ -168,7 +168,6 @@ def plot_performance(
 
 # Task 1b
 def double_and_add(p: Point, a: int) -> Point:
-    # TODO implement
     binary = bin(a)
     T = p
     for bit in binary[3:]:
@@ -180,9 +179,18 @@ def double_and_add(p: Point, a: int) -> Point:
 
 # Task 1c
 def calc_naf_representation(exponent: int) -> list[int]:
-    # TODO implement
-    # In the returned list, the least significant bit (LSB) should be at index 0.
-    ...
+    X = exponent
+    i = 0
+    e = []
+    while X >= 1:
+        if (X % 2) != 0:
+            e.append(2 -(X % 4))
+            X = X - e[i]
+        else:
+            e.append(0)
+        X = X // 2
+        i += 1
+    return e
 
 
 # Task 1d
