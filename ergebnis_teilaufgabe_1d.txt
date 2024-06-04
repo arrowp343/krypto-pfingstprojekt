@@ -1,0 +1,10 @@
+S = k * Q = 
+x: 0x24829726d3687520d2c362d25a28685673dd260b662e6ad8b604abf993c03706
+y: 0xb2fc995a26bdfc9add0cac61fefae2a7ae001fee5546bf2c2a408b86efee19ff
+
+Double-Operationen: 	256
+Add-Operationen: 	19
+Sub-Operationen: 	55
+	Summe: 	330
+
+True

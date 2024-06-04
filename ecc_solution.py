@@ -181,9 +181,9 @@ def double_and_add(p: Point, a: int) -> Point:
             T = T.pointaddition(p)
             count_add += 1
     
-    sum = count_double + count_add
-    print("Statistik für den Standard Double-and-Add-Algorithmus:")
-    print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\n\tSumme: \t{sum}\n")
+    #sum = count_double + count_add
+    #print("Statistik für den Standard Double-and-Add-Algorithmus:")
+    #print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\n\tSumme: \t{sum}\n")
     return T
 
 
@@ -204,32 +204,30 @@ def calc_naf_representation(exponent: int) -> list[int]:
 
 
 # Task 1d
-def naf_double_and_add(p: Point, a: int) -> Point:
-    count_double = 0
-    count_add = 0
-    count_sub = 0
+def naf_double_and_add(p: Point, a: int, counter = [0, 0, 0]) -> Point:
+    # counter entspricht: [count_double, count_add, count_sub]
 
     naf_array = calc_naf_representation(a)
     q = Point.inf(p.curve)
     if naf_array[-1] == 1:
         q = p
-        count_add += 1
+        counter[1] += 1
     elif naf_array[-1] == -1:
         q = p.get_inverse()
-        count_sub += 1
+        counter[2] += 1
     for i in range(len(naf_array) - 2, -1, -1):
         q = q.pointdouble()
-        count_double += 1
+        counter[0] += 1
         if naf_array[i] == 1:
             q = q.pointaddition(p)
-            count_add += 1
+            counter[1] += 1
         if naf_array[i] == -1:
             q = q.pointaddition(p.get_inverse())
-            count_sub += 1
+            counter[2] += 1
 
-    sum = count_sub + count_add + count_double
-    print("Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:")
-    print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\nSub-Operationen: \t{count_sub}\n\tSumme: \t{sum}\n")
+    #sum = count_sub + count_add + count_double
+    #print("Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:")
+    #print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\nSub-Operationen: \t{count_sub}\n\tSumme: \t{sum}\n")
     return q
 
 
@@ -255,17 +253,30 @@ if __name__ == "__main__":
     k = 0xFEEDDEADBEEFBADCAB1EDECAFBADC0DEC001D00DC0DEBA5EC0CAC01AADD511FE
 
     # TODO multiply point and scalar using NAF
+    # counter entspricht: [count_double, count_add, count_sub]
+    counter = [0, 0, 0]
+    S = naf_double_and_add(point_1, k, counter)
+    print(f"S = k * Q = \n{S}\n")
     # TODO report number of operations needed
+    print(f"Double-Operationen: \t{counter[0]}\nAdd-Operationen: \t{counter[1]}\nSub-Operationen: \t{counter[2]}\n\tSumme: \t{counter[0]+counter[1]+counter[2]}\n")
 
     # Task 2a
     kprivA = 0x7A041F183A600B1D34E2D20D0FD994E003257481ACF9A107184599BF43F75AE7
     kprivB = 0x85249CDDD97CCFABC10400F3E0C03207721E7A079CDB93928C88DAD7204C2B12
 
-    # TODO calculate shared key
-    kpubA = None
-    kpubB = None
 
-    T_AB = None
+
+    # TODO calculate shared key
+    P = Point(nistp256.x, nistp256.y, nistp256)
+    kpubA = naf_double_and_add(P, kprivA)
+    kpubB = naf_double_and_add(P, kprivB)
+
+    T_AB_aus_Alice_sicht = naf_double_and_add(kpubB, kprivA)
+    T_AB_aus_Bobs_sicht = naf_double_and_add(kpubA, kprivB)
+
+    print(T_AB_aus_Alice_sicht == T_AB_aus_Bobs_sicht)
+
+    print(T_AB_aus_Alice_sicht)
 
     # Task 2b
 
