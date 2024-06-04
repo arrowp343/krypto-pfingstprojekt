@@ -165,15 +165,25 @@ def plot_performance(
 
 ########## ENTER YOUR SOLUTION BELOW ##########
 
-
 # Task 1b
 def double_and_add(p: Point, a: int) -> Point:
+
+    # Zählvariablen
+    count_add = 0
+    count_double = 0
+
     binary = bin(a)
     T = p
     for bit in binary[3:]:
         T = T.pointdouble()
+        count_double += 1
         if bit == "1":
             T = T.pointaddition(p)
+            count_add += 1
+    
+    sum = count_double + count_add
+    print("Statistik für den Standard Double-and-Add-Algorithmus:")
+    print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\n\tSumme: \t{sum}\n")
     return T
 
 
@@ -195,18 +205,31 @@ def calc_naf_representation(exponent: int) -> list[int]:
 
 # Task 1d
 def naf_double_and_add(p: Point, a: int) -> Point:
+    count_double = 0
+    count_add = 0
+    count_sub = 0
+
     naf_array = calc_naf_representation(a)
     q = Point.inf(p.curve)
     if naf_array[-1] == 1:
         q = p
+        count_add += 1
     elif naf_array[-1] == -1:
         q = p.get_inverse()
+        count_sub += 1
     for i in range(len(naf_array) - 2, -1, -1):
         q = q.pointdouble()
+        count_double += 1
         if naf_array[i] == 1:
             q = q.pointaddition(p)
+            count_add += 1
         if naf_array[i] == -1:
             q = q.pointaddition(p.get_inverse())
+            count_sub += 1
+
+    sum = count_sub + count_add + count_double
+    print("Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:")
+    print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\nSub-Operationen: \t{count_sub}\n\tSumme: \t{sum}\n")
     return q
 
 

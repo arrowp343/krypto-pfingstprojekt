@@ -1,0 +1,1115 @@
+[*] Teste ECC-Klassen
+[*] Teste NAF
+[*] Teste Double-and-Add
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	107
+Add-Operationen: 	81
+	Summe: 	188
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	108
+Add-Operationen: 	1
+Sub-Operationen: 	27
+	Summe: 	136
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	41
+Sub-Operationen: 	41
+	Summe: 	335
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	123
+	Summe: 	375
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	43
+Sub-Operationen: 	49
+	Summe: 	346
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	132
+	Summe: 	385
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	251
+Add-Operationen: 	48
+Sub-Operationen: 	37
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	250
+Add-Operationen: 	127
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	47
+Sub-Operationen: 	43
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	117
+	Summe: 	371
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	43
+Sub-Operationen: 	38
+	Summe: 	334
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	113
+	Summe: 	366
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	36
+Sub-Operationen: 	48
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	125
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	250
+Add-Operationen: 	42
+Sub-Operationen: 	43
+	Summe: 	335
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	249
+Add-Operationen: 	120
+	Summe: 	369
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	47
+Sub-Operationen: 	39
+	Summe: 	341
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	127
+	Summe: 	381
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	42
+Sub-Operationen: 	39
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	133
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	247
+Add-Operationen: 	40
+Sub-Operationen: 	43
+	Summe: 	330
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	246
+Add-Operationen: 	123
+	Summe: 	369
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	42
+Sub-Operationen: 	44
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	130
+	Summe: 	383
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	39
+Sub-Operationen: 	39
+	Summe: 	332
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	122
+	Summe: 	376
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	42
+Sub-Operationen: 	41
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	118
+	Summe: 	371
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	42
+Sub-Operationen: 	44
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	140
+	Summe: 	392
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	41
+Sub-Operationen: 	42
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	120
+	Summe: 	374
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	52
+Sub-Operationen: 	39
+	Summe: 	346
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	123
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	251
+Add-Operationen: 	41
+Sub-Operationen: 	35
+	Summe: 	327
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	250
+Add-Operationen: 	129
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	57
+Sub-Operationen: 	41
+	Summe: 	353
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	123
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	47
+Sub-Operationen: 	31
+	Summe: 	330
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	107
+	Summe: 	358
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	42
+Sub-Operationen: 	36
+	Summe: 	332
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	124
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	44
+Sub-Operationen: 	42
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	125
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	44
+Sub-Operationen: 	54
+	Summe: 	353
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	137
+	Summe: 	391
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	250
+Add-Operationen: 	38
+Sub-Operationen: 	43
+	Summe: 	331
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	250
+Add-Operationen: 	129
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	52
+Sub-Operationen: 	32
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	113
+	Summe: 	366
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	47
+Sub-Operationen: 	44
+	Summe: 	344
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	131
+	Summe: 	384
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	34
+Sub-Operationen: 	56
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	131
+	Summe: 	385
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	251
+Add-Operationen: 	44
+Sub-Operationen: 	36
+	Summe: 	331
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	116
+	Summe: 	367
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	50
+Sub-Operationen: 	44
+	Summe: 	348
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	115
+	Summe: 	369
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	45
+Sub-Operationen: 	40
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	112
+	Summe: 	366
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	44
+Sub-Operationen: 	43
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	133
+	Summe: 	384
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	46
+Sub-Operationen: 	46
+	Summe: 	347
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	127
+	Summe: 	381
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	48
+Sub-Operationen: 	38
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	112
+	Summe: 	366
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	41
+Sub-Operationen: 	44
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	126
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	40
+Sub-Operationen: 	38
+	Summe: 	332
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	121
+	Summe: 	375
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	48
+	Summe: 	349
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	131
+	Summe: 	384
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	44
+Sub-Operationen: 	40
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	126
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	52
+Sub-Operationen: 	36
+	Summe: 	343
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	110
+	Summe: 	364
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	49
+Sub-Operationen: 	39
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	134
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	41
+Sub-Operationen: 	44
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	133
+	Summe: 	386
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	44
+Sub-Operationen: 	45
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	120
+	Summe: 	372
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	46
+Sub-Operationen: 	42
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	129
+	Summe: 	383
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	249
+Add-Operationen: 	48
+Sub-Operationen: 	39
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	249
+Add-Operationen: 	116
+	Summe: 	365
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	47
+Sub-Operationen: 	40
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	110
+	Summe: 	363
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	48
+Sub-Operationen: 	45
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	125
+	Summe: 	376
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	41
+Sub-Operationen: 	41
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	129
+	Summe: 	383
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	44
+Sub-Operationen: 	48
+	Summe: 	346
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	124
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	46
+	Summe: 	347
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	124
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	39
+Sub-Operationen: 	52
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	136
+	Summe: 	389
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	46
+Sub-Operationen: 	43
+	Summe: 	344
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	129
+	Summe: 	383
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	46
+Sub-Operationen: 	43
+	Summe: 	343
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	122
+	Summe: 	376
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	48
+Sub-Operationen: 	35
+	Summe: 	338
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	116
+	Summe: 	370
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	38
+Sub-Operationen: 	45
+	Summe: 	338
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	125
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	45
+Sub-Operationen: 	42
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	127
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	39
+Sub-Operationen: 	47
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	135
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	39
+Sub-Operationen: 	43
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	149
+	Summe: 	402
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	37
+Sub-Operationen: 	44
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	133
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	44
+Sub-Operationen: 	46
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	137
+	Summe: 	391
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	251
+Add-Operationen: 	45
+Sub-Operationen: 	38
+	Summe: 	334
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	250
+Add-Operationen: 	113
+	Summe: 	363
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	41
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	120
+	Summe: 	373
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	38
+Sub-Operationen: 	49
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	128
+	Summe: 	380
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	250
+Add-Operationen: 	32
+Sub-Operationen: 	52
+	Summe: 	334
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	249
+Add-Operationen: 	139
+	Summe: 	388
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	46
+Sub-Operationen: 	38
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	128
+	Summe: 	382
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	38
+Sub-Operationen: 	47
+	Summe: 	338
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	124
+	Summe: 	376
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	45
+Sub-Operationen: 	46
+	Summe: 	346
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	124
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	49
+Sub-Operationen: 	42
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	131
+	Summe: 	384
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	41
+Sub-Operationen: 	45
+	Summe: 	341
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	136
+	Summe: 	390
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	26
+Sub-Operationen: 	56
+	Summe: 	334
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	146
+	Summe: 	398
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	39
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	133
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	44
+Sub-Operationen: 	46
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	132
+	Summe: 	384
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	40
+Sub-Operationen: 	48
+	Summe: 	343
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	133
+	Summe: 	387
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	42
+	Summe: 	343
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	127
+	Summe: 	381
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	42
+Sub-Operationen: 	46
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	136
+	Summe: 	388
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	42
+Sub-Operationen: 	45
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	124
+	Summe: 	377
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	46
+Sub-Operationen: 	45
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	124
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	42
+Sub-Operationen: 	47
+	Summe: 	341
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	122
+	Summe: 	374
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	44
+Sub-Operationen: 	40
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	120
+	Summe: 	374
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	41
+Sub-Operationen: 	38
+	Summe: 	333
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	128
+	Summe: 	382
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	39
+Sub-Operationen: 	35
+	Summe: 	328
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	121
+	Summe: 	374
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	44
+Sub-Operationen: 	46
+	Summe: 	343
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	137
+	Summe: 	390
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	45
+Sub-Operationen: 	47
+	Summe: 	347
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	124
+	Summe: 	378
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	42
+Sub-Operationen: 	43
+	Summe: 	337
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	134
+	Summe: 	386
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	43
+Sub-Operationen: 	48
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	135
+	Summe: 	389
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	48
+Sub-Operationen: 	43
+	Summe: 	345
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	129
+	Summe: 	382
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	40
+Sub-Operationen: 	44
+	Summe: 	338
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	135
+	Summe: 	388
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	37
+Sub-Operationen: 	46
+	Summe: 	338
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	132
+	Summe: 	386
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	40
+Sub-Operationen: 	40
+	Summe: 	334
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	135
+	Summe: 	388
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	40
+Sub-Operationen: 	41
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	114
+	Summe: 	368
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	47
+Sub-Operationen: 	43
+	Summe: 	344
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	127
+	Summe: 	380
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	41
+Sub-Operationen: 	34
+	Summe: 	330
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	119
+	Summe: 	373
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	44
+Sub-Operationen: 	41
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	121
+	Summe: 	375
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	39
+Sub-Operationen: 	40
+	Summe: 	333
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	137
+	Summe: 	391
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	45
+Sub-Operationen: 	43
+	Summe: 	342
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	122
+	Summe: 	375
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	34
+Sub-Operationen: 	52
+	Summe: 	341
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	128
+	Summe: 	382
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	37
+Sub-Operationen: 	42
+	Summe: 	332
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	252
+Add-Operationen: 	118
+	Summe: 	370
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	44
+Sub-Operationen: 	40
+	Summe: 	336
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	120
+	Summe: 	371
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	251
+Add-Operationen: 	48
+Sub-Operationen: 	34
+	Summe: 	333
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	110
+	Summe: 	361
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	254
+Add-Operationen: 	40
+Sub-Operationen: 	35
+	Summe: 	329
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	120
+	Summe: 	374
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	252
+Add-Operationen: 	44
+Sub-Operationen: 	44
+	Summe: 	340
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	251
+Add-Operationen: 	128
+	Summe: 	379
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	255
+Add-Operationen: 	47
+Sub-Operationen: 	37
+	Summe: 	339
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	254
+Add-Operationen: 	111
+	Summe: 	365
+
+Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:
+Double-Operationen: 	253
+Add-Operationen: 	47
+Sub-Operationen: 	48
+	Summe: 	348
+
+Statistik für den Standard Double-and-Add-Algorithmus:
+Double-Operationen: 	253
+Add-Operationen: 	129
+	Summe: 	382
+
+[+] PASS

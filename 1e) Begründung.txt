@@ -1,0 +1,1 @@
+Der angepasste Algorithmus mit NAF ist vorteilhafter, da er im Schnitt weniger Operationen durchführen muss, als der normale Double-and-Add-Algorithmus.
