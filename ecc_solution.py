@@ -276,12 +276,13 @@ if __name__ == "__main__":
 
     # Task 2b
 
-    n = 10
+    n = 1000
     # measure time for 1000 executions of double_and_add
     start = time.time()
-    for i in range(1000):
-        kpubA = double_and_add(P, kprivA)
-        T_AB = double_and_add(kpubA, kprivB)
+    #for i in range(n):
+        #kpubA = double_and_add(P, kprivA)
+        #T_AB = double_and_add(kpubA, kprivB)
+
     end = time.time()
     diff = end - start
     print(f"Verbrauchte Zeit für Standard Double-and-Add: {diff} Sekunden.")
@@ -289,9 +290,9 @@ if __name__ == "__main__":
     # measure time for 1000 executions of naf_double_and_add
 
     start = time.time()
-    for i in range(1000):
-        kpubA = naf_double_and_add(P, kprivA)
-        T_AB = naf_double_and_add(kpubA, kprivB)
+    #for i in range(n):
+        #kpubA = naf_double_and_add(P, kprivA)
+        #T_AB = naf_double_and_add(kpubA, kprivB)
     end = time.time()
     diff = end - start
     print(f"Verbrauchte Zeit für Double-and-Add mit NAF{diff} Sekunden.")
@@ -300,12 +301,25 @@ if __name__ == "__main__":
 
     n = 5000
 
-    # TODO measure time for each execution of double_and_add
+    # measure time for each execution of double_and_add
     time_normal_list = []
-    # TODO measure time for each execution of naf_double_and_add
-    time_naf_list = []
+    for i in range(n):
+        start = time.time()
+        kpubA = double_and_add(P, kprivA)
+        T_AB = double_and_add(kpubA, kprivB)
+        end = time.time()
+        time_normal_list.append(end - start)
 
-    #plot_performance(time_normal_list, time_naf_list, output_filename="ecdh_speed.png")
+    # measure time for each execution of naf_double_and_add
+    time_naf_list = []
+    for i in range(n):
+        start = time.time()
+        kpubA = naf_double_and_add(P, kprivA)
+        T_AB = naf_double_and_add(kpubA, kprivB)
+        end = time.time()
+        time_naf_list.append(end - start)
+
+    plot_performance(time_normal_list, time_naf_list, output_filename="ecdh_speed.png")
 
     # Task 2d
 
