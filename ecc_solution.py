@@ -252,21 +252,19 @@ if __name__ == "__main__":
 
     k = 0xFEEDDEADBEEFBADCAB1EDECAFBADC0DEC001D00DC0DEBA5EC0CAC01AADD511FE
 
-    # TODO multiply point and scalar using NAF
-    # counter entspricht: [count_double, count_add, count_sub]
+    # multiply point and scalar using NAF
+    #  counter entspricht: [count_double, count_add, count_sub]
     counter = [0, 0, 0]
     S = naf_double_and_add(point_1, k, counter)
     print(f"S = k * Q = \n{S}\n")
-    # TODO report number of operations needed
+    # report number of operations needed
     print(f"Double-Operationen: \t{counter[0]}\nAdd-Operationen: \t{counter[1]}\nSub-Operationen: \t{counter[2]}\n\tSumme: \t{counter[0]+counter[1]+counter[2]}\n")
 
     # Task 2a
     kprivA = 0x7A041F183A600B1D34E2D20D0FD994E003257481ACF9A107184599BF43F75AE7
     kprivB = 0x85249CDDD97CCFABC10400F3E0C03207721E7A079CDB93928C88DAD7204C2B12
 
-
-
-    # TODO calculate shared key
+    # calculate shared key
     P = Point(nistp256.x, nistp256.y, nistp256)
     kpubA = naf_double_and_add(P, kprivA)
     kpubB = naf_double_and_add(P, kprivB)
@@ -274,9 +272,7 @@ if __name__ == "__main__":
     T_AB_aus_Alice_sicht = naf_double_and_add(kpubB, kprivA)
     T_AB_aus_Bobs_sicht = naf_double_and_add(kpubA, kprivB)
 
-    print(T_AB_aus_Alice_sicht == T_AB_aus_Bobs_sicht)
-
-    print(T_AB_aus_Alice_sicht)
+    print("T_AB aus Alice sicht ist "  + f"gleich:\n{T_AB_aus_Alice_sicht}\n" if T_AB_aus_Alice_sicht == T_AB_aus_Bobs_sicht else f"nicht gleich:\nAlice Sicht:\n{T_AB_aus_Alice_sicht}\nBobs Sicht:\n{T_AB_aus_Bobs_sicht}\n")
 
     # Task 2b
 
@@ -295,8 +291,15 @@ if __name__ == "__main__":
     # TODO measure time for each execution of naf_double_and_add
     time_naf_list = []
 
-    plot_performance(time_normal_list, time_naf_list, output_filename="ecdh_speed.png")
+    #plot_performance(time_normal_list, time_naf_list, output_filename="ecdh_speed.png")
 
     # Task 2d
 
-    # TODO calculate the AES key using T_AB
+    # calculate the AES key using T_AB
+    def Xi(T_AB: Point) -> str:
+        binary_tab = bin(T_AB.get_coordinates()[0])[2:].zfill(256)
+        part1 = int(binary_tab[:128], 2)
+        part2 = int(binary_tab[128:], 2)
+        return hex(part1 ^ part2)
+
+    print(f"AES-Key: {Xi(T_AB_aus_Alice_sicht)}")
