@@ -196,8 +196,18 @@ def calc_naf_representation(exponent: int) -> list[int]:
 # Task 1d
 def naf_double_and_add(p: Point, a: int) -> Point:
     naf_array = calc_naf_representation(a)
-    # TODO implement
-    ...
+    q = Point.inf(p.curve)
+    if naf_array[-1] == 1:
+        q = p
+    elif naf_array[-1] == -1:
+        q = p.get_inverse()
+    for i in range(len(naf_array) - 2, -1, -1):
+        q = q.pointdouble()
+        if naf_array[i] == 1:
+            q = q.pointaddition(p)
+        if naf_array[i] == -1:
+            q = q.pointaddition(p.get_inverse())
+    return q
 
 
 # DO NOT remove this line
