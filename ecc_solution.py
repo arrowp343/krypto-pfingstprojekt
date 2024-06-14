@@ -181,7 +181,7 @@ def double_and_add(p: Point, a: int) -> Point:
             T = T.pointaddition(p)
             count_add += 1
     
-    #sum = count_double + count_add
+    sum = count_double + count_add
     #print("Statistik für den Standard Double-and-Add-Algorithmus:")
     #print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\n\tSumme: \t{sum}\n")
     return T
@@ -189,6 +189,7 @@ def double_and_add(p: Point, a: int) -> Point:
 
 # Task 1c
 def calc_naf_representation(exponent: int) -> list[int]:
+    # implementierung nach Algorithmus im beigefügten PDF
     X = exponent
     i = 0
     e = []
@@ -205,27 +206,39 @@ def calc_naf_representation(exponent: int) -> list[int]:
 
 # Task 1d
 def naf_double_and_add(p: Point, a: int, counter = [0, 0, 0]) -> Point:
-    # counter entspricht: [count_double, count_add, count_sub]
+    # implementierung nach Algorithmus im beigefügten PDF
+
+    #counter entspricht: [count_double, count_add, count_sub]
+    count_double = 0
+    count_add = 0
+    count_sub = 0
 
     naf_array = calc_naf_representation(a)
     q = Point.inf(p.curve)
+    # weil es keine implementierung gibt, bei der eine addition mit dem punkt im unendlichen möglich ist, wird im ersten schritt abhängig von der ersten Stelle in der NAF-Darstellung, einfach zugewiesen
     if naf_array[-1] == 1:
         q = p
         counter[1] += 1
+        count_add += 1
     elif naf_array[-1] == -1:
         q = p.get_inverse()
         counter[2] += 1
+        count_sub += 1
+    #schleife muss rückwärts durchlaufen werden
     for i in range(len(naf_array) - 2, -1, -1):
         q = q.pointdouble()
         counter[0] += 1
+        count_double += 1
         if naf_array[i] == 1:
             q = q.pointaddition(p)
             counter[1] += 1
+            count_add += 1
         if naf_array[i] == -1:
             q = q.pointaddition(p.get_inverse())
             counter[2] += 1
+            count_sub += 1
 
-    #sum = count_sub + count_add + count_double
+    sum = count_sub + count_add + count_double
     #print("Statistik für den angepassten Double-and-Add-Algorithmus mit NAF:")
     #print(f"Double-Operationen: \t{count_double}\nAdd-Operationen: \t{count_add}\nSub-Operationen: \t{count_sub}\n\tSumme: \t{sum}\n")
     return q
@@ -255,10 +268,11 @@ if __name__ == "__main__":
     # multiply point and scalar using NAF
     #  counter entspricht: [count_double, count_add, count_sub]
     counter = [0, 0, 0]
+    S = double_and_add(point_1, k)
     S = naf_double_and_add(point_1, k, counter)
-    print(f"S = k * Q = \n{S}\n")
+    #print(f"S = k * Q = \n{S}\n")
     # report number of operations needed
-    print(f"Double-Operationen: \t{counter[0]}\nAdd-Operationen: \t{counter[1]}\nSub-Operationen: \t{counter[2]}\n\tSumme: \t{counter[0]+counter[1]+counter[2]}\n")
+    #print(f"Double-Operationen: \t{counter[0]}\nAdd-Operationen: \t{counter[1]}\nSub-Operationen: \t{counter[2]}\n\tSumme: \t{counter[0]+counter[1]+counter[2]}\n")
 
     # Task 2a
     kprivA = 0x7A041F183A600B1D34E2D20D0FD994E003257481ACF9A107184599BF43F75AE7
@@ -279,23 +293,22 @@ if __name__ == "__main__":
     n = 1000
     # measure time for 1000 executions of double_and_add
     start = time.time()
-    #for i in range(n):
-        #kpubA = double_and_add(P, kprivA)
-        #T_AB = double_and_add(kpubA, kprivB)
+    for i in range(n):
+        kpubA = double_and_add(P, kprivA)
+        T_AB = double_and_add(kpubA, kprivB)
 
     end = time.time()
     diff = end - start
     print(f"Verbrauchte Zeit für Standard Double-and-Add: {diff} Sekunden.")
 
     # measure time for 1000 executions of naf_double_and_add
-
     start = time.time()
-    #for i in range(n):
-        #kpubA = naf_double_and_add(P, kprivA)
-        #T_AB = naf_double_and_add(kpubA, kprivB)
+    for i in range(n):
+        kpubA = naf_double_and_add(P, kprivA)
+        T_AB = naf_double_and_add(kpubA, kprivB)
     end = time.time()
     diff = end - start
-    print(f"Verbrauchte Zeit für Double-and-Add mit NAF{diff} Sekunden.")
+    print(f"Verbrauchte Zeit für Double-and-Add mit NAF: {diff} Sekunden.")
 
     # Task 2c
 
